@@ -11,6 +11,7 @@ export async function GET(req) {
 
     await dbconnect();
     const result = await file.findOne({ fileId: fileID });
+
     if (!result) {
       return NextResponse.json({ message: "File Not Found" });
     }
