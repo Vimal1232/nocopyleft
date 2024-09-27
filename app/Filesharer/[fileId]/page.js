@@ -141,7 +141,7 @@ const page = ({ params }) => {
                         </dt>
                         <dd className="mt-2 leading-7 text-gray-400 font-Grotesk">
                           The File Will Be Deleted In {10} {""}
-                          minutes
+                          minutes from the time of Initiation
                         </dd>
                       </div>
                     </dl>
